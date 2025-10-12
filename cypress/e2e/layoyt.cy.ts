@@ -1,7 +1,7 @@
 describe('Main Layout', () => {
   beforeEach(() => {
     cy.viewport(1200, 800)
-    cy.visit('/')
+    cy.appVisit('/')
   })
 
   it('displays the logo', () => {

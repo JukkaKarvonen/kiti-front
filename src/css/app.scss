@@ -19,3 +19,25 @@
   text-decoration: none;
   color: inherit;
 }
+
+.info-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.info-content {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.layout-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.heading-background {
+  color: #ffffff;
+  margin: 1rem 0;
+  padding-left: 1rem;
+}

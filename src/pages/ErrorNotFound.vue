@@ -5,7 +5,7 @@
 
       <p class="text-h2">{{ $t('error_404') }}</p>
 
-      <q-btn class="q-mt-xl" @click="goBack" :label="$t('back')" no-caps />
+      <q-btn class="q-mt-xl" :label="$t('back')" no-caps @click="goBack" />
     </div>
   </div>
 </template>

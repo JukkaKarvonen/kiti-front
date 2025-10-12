@@ -2,17 +2,17 @@
   <q-btn
     v-for="option in languageOptions"
     :key="option.value"
-    clickable
     v-close-popup
-    @click="changelanguage(option.value)"
+    clickable
     :class="customClass"
+    @click="changelanguage(option.value)"
   >
     {{ option.value }}
   </q-btn>
 </template>
 
 <script setup lang="ts">
-defineProps(['customClass'])
+defineProps<{ customClass?: string }>()
 import { useI18n } from 'vue-i18n'
 
 const { locale } = useI18n({ useScope: 'global' })
