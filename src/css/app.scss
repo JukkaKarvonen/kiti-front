@@ -1,0 +1,21 @@
+// app global css in SCSS form
+
+.wrap-text {
+  white-space: normal !important;
+}
+
+.logo-img {
+  max-width: 100%;
+  max-height: 4rem;
+  height: auto;
+  padding: 0.5rem 1rem;
+}
+
+.align-top {
+  vertical-align: top;
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
